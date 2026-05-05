@@ -11,6 +11,10 @@
       as="image"
       href="./assets/images/others/banner_image_2.png"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" />
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" />
     <link
       href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap"
       rel="stylesheet"
@@ -20,7 +24,6 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     />
   </head>
-  <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
   <body>
     <!-- Navigation -->
     <nav class="navbar">
@@ -132,6 +135,7 @@
                 src="./assets/images/collections/bridal_collection.png?w=800&q=80"
                 alt="Bridal collection"
                 loading="lazy"
+                decoding="async"
               />
             </div>
             <div class="card-content">
@@ -153,6 +157,7 @@
                 src="./assets/images/collections/traditional.png"
                 alt="Traditional wear collection"
                 loading="lazy"
+                decoding="async"
               />
             </div>
             <div class="card-content">
@@ -172,6 +177,7 @@
                 src="./assets/images/collections/casual_1.png"
                 alt="Casual elegance collection"
                 loading="lazy"
+                decoding="async"
               />
             </div>
             <div class="card-content">
@@ -188,6 +194,7 @@
                 src="./assets/images/collections/festival_1.png"
                 alt="Festival special collection"
                 loading="lazy"
+                decoding="async"
               />
             </div>
             <div class="card-content">
@@ -276,6 +283,8 @@
               src="./assets/images/gallery/gallery_1.png"
               alt="Gallery Image 1"
               class="gallery-img"
+              loading="lazy"
+              decoding="async"
             />
             <div class="gallery-overlay zoom-btn">
               <i class="fas fa-search-plus"></i>
@@ -289,6 +298,8 @@
               src="./assets/images/gallery/gallery_2.png"
               alt="Gallery Image 2"
               class="gallery-img"
+              loading="lazy"
+              decoding="async"
             />
             <div class="gallery-overlay zoom-btn">
               <i class="fas fa-search-plus"></i>
@@ -302,6 +313,8 @@
               src="./assets/images/gallery/gallery_4.png"
               alt="Gallery Image 3"
               class="gallery-img"
+              loading="lazy"
+              decoding="async"
             />
             <div class="gallery-overlay zoom-btn">
               <i class="fas fa-search-plus"></i>
@@ -315,6 +328,8 @@
               src="./assets/images/gallery/gallery_3.png"
               alt="Gallery Image 4"
               class="gallery-img"
+              loading="lazy"
+              decoding="async"
             />
             <div class="gallery-overlay zoom-btn">
               <i class="fas fa-search-plus"></i>
@@ -328,6 +343,8 @@
               src="./assets/images/gallery/gallery_5.png"
               alt="Gallery Image 5"
               class="gallery-img"
+              loading="lazy"
+              decoding="async"
             />
             <div class="gallery-overlay zoom-btn">
               <i class="fas fa-search-plus"></i>
@@ -341,6 +358,8 @@
               src="./assets/images/gallery/gallery_6.png"
               alt="Gallery Image 6"
               class="gallery-img"
+              loading="lazy"
+              decoding="async"
             />
             <div class="gallery-overlay zoom-btn">
               <i class="fas fa-search-plus"></i>
@@ -608,7 +627,11 @@
       </div>
     </footer>
 
-    <script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"
+      defer
+    ></script>
+    <script type="module">
       // Navbar scroll effect
       window.addEventListener("scroll", function () {
         const navbar = document.querySelector(".navbar");
@@ -688,7 +711,7 @@
       };
     </script>
 
-    <script>
+    <script type="module">
       document.addEventListener("DOMContentLoaded", function () {
         emailjs.init("EKF-AGamdb8xnqIdV");
 
