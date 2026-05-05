@@ -41,8 +41,8 @@
           <li><a href="#contact">Contact</a></li>
         </ul>
         <div class="nav-icons">
-          <a href="#" class="icon"><i class="fas fa-search"></i></a>
-          <a href="#" class="icon"><i class="fas fa-shopping-bag"></i></a>
+          <!-- <a href="#" class="icon"><i class="fas fa-search"></i></a>
+          <a href="#" class="icon"><i class="fas fa-shopping-bag"></i></a> -->
         </div>
         <div class="hamburger">
           <span></span>
@@ -621,8 +621,74 @@
           </div>
         </div>
         <div class="footer-bottom">
-          <p>&copy; 2026 Siblings Creation & Boutique. All Rights Reserved.</p>
-          <p>Made with <i class="fas fa-heart"></i> in Nepal</p>
+          <!-- Font Awesome (add in <head> if not already added) -->
+
+          <style>
+            .footer-dev {
+              margin-top: 10px;
+              font-size: 13px;
+              color: #bbb;
+            }
+
+            .footer-dev strong {
+              color: #fff;
+            }
+
+            .footer-actions {
+              margin-top: 8px;
+              display: flex;
+              gap: 10px;
+              flex-wrap: wrap;
+            }
+
+            .footer-btn {
+              display: inline-flex;
+              align-items: center;
+              gap: 6px;
+              padding: 7px 14px;
+              border-radius: 999px;
+              font-size: 13px;
+              font-weight: 500;
+              text-decoration: none;
+              transition: all 0.2s ease;
+            }
+
+            .call-btn {
+              background: #1f1f1f;
+              color: #fff;
+            }
+
+            .call-btn:hover {
+              background: #333;
+            }
+
+            .whatsapp-btn {
+              background: #25d366;
+              color: #fff;
+            }
+
+            .whatsapp-btn:hover {
+              background: #1ebe5d;
+            }
+          </style>
+
+          <p class="footer-dev">
+            Designed & developed by <strong>Sagar Adhikari</strong>
+          </p>
+
+          <div class="footer-actions">
+            <a href="tel:+917584060563" class="footer-btn call-btn">
+              <i class="fa-solid fa-phone"></i> Call
+            </a>
+
+            <a
+              href="https://wa.me/917584060563?text=Hi%20Sagar,%20I%20want%20to%20contact%20you"
+              target="_blank"
+              class="footer-btn whatsapp-btn"
+            >
+              <i class="fa-brands fa-whatsapp"></i> WhatsApp
+            </a>
+          </div>
         </div>
       </div>
     </footer>
