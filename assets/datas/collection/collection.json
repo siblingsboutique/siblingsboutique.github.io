@@ -6,7 +6,7 @@
     "price": "₹8,999",
     "gender": "women",
 
-    "photo": "aseets/images/others/banner_image_2.webp"
+    "photo": "/assets/images/others/banner_image_2.webp"
   },
   {
     "id": 2,
@@ -15,7 +15,7 @@
     "price": "₹5,499",
     "gender": "men",
 
-    "photo": "aseets/images/others/banner_image_1.png"
+    "photo": "assets/images/others/banner_image_1.png"
   },
   {
     "id": 3,
