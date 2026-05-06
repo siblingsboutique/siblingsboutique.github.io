@@ -1008,7 +1008,7 @@ section {
   background: #fff;
 
   color: #222;
-  padding: 9px 38px 9px 14px;
+  padding: 9px 38px 9px 24px;
 
   border-radius: 999px;
 
@@ -1029,13 +1029,13 @@ section {
   right: 14px;
   top: 50%;
 
-  width: 8px;
-  height: 8px;
+  width: 6px;
+  height: 6px;
 
-  border-right: 2px solid #666;
-  border-bottom: 2px solid #666;
+  border-right: 1.5px solid #8c8c8c;
+  border-bottom: 1.5px solid #747474;
 
-  transform: translateY(-60%) rotate(45deg);
+  transform: translateY(-65%) rotate(45deg);
 
   pointer-events: none;
 }
