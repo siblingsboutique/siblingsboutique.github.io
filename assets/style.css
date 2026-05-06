@@ -1094,6 +1094,7 @@ section {
   overflow: hidden;
   transition: 0.25s ease;
   position: relative;
+  border-radius: 6px;
 }
 
 .collection-item:hover {
