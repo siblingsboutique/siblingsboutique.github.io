@@ -5,8 +5,8 @@
     "title": "Red Bridal Lehenga",
     "price": "₹18,999",
     "gender": "women",
-    "whatsapp_contact_link": "https://wa.me/919999999999?text=I%20am%20interested%20in%20Red%20Bridal%20Lehenga",
-    "photo": "assets/images/bridal-lehenga-red.jpg"
+
+    "photo": "aseets/images/others/banner_image_2.webp"
   },
   {
     "id": 2,
@@ -14,7 +14,7 @@
     "title": "Royal Wedding Saree",
     "price": "₹15,499",
     "gender": "men",
-    "whatsapp_contact_link": "https://wa.me/919999999999?text=I%20am%20interested%20in%20Royal%20Wedding%20Saree",
+
     "photo": "assets/images/royal-wedding-saree.jpg"
   },
   {
@@ -23,7 +23,7 @@
     "title": "Gunyu Choli Set",
     "gender": "women",
     "price": "₹5,999",
-    "whatsapp_contact_link": "https://wa.me/919999999999?text=I%20am%20interested%20in%20Gunyu%20Choli%20Set",
+
     "photo": "assets/images/gunyu-choli.jpg"
   },
   {
@@ -32,7 +32,7 @@
     "title": "Daura Suruwal Premium",
     "gender": "women",
     "price": "₹6,499",
-    "whatsapp_contact_link": "https://wa.me/919999999999?text=I%20am%20interested%20in%20Daura%20Suruwal%20Premium",
+
     "photo": "assets/images/daura-suruwal.jpg"
   },
   {
@@ -42,7 +42,7 @@
     "short_description": "Modern fusion kurti designed for daily elegance.",
     "price": "₹2,299",
     "gender": "men",
-    "whatsapp_contact_link": "https://wa.me/919999999999?text=I%20am%20interested%20in%20Fusion%20Kurti%20Dress",
+
     "photo": "assets/images/fusion-kurti.jpg"
   },
   {
@@ -52,7 +52,7 @@
     "gender": "men",
     "short_description": "Comfortable pastel gown with stylish modern touch.",
     "price": "₹3,199",
-    "whatsapp_contact_link": "https://wa.me/919999999999?text=I%20am%20interested%20in%20Soft%20Pastel%20Gown",
+
     "photo": "assets/images/pastel-gown.jpg"
   },
   {
@@ -62,7 +62,7 @@
     "gender": "women",
     "short_description": "Festive saree collection designed for Dashain celebrations.",
     "price": "₹7,499",
-    "whatsapp_contact_link": "https://wa.me/919999999999?text=I%20am%20interested%20in%20Dashain%20Celebration%20Saree",
+
     "photo": "assets/images/dashain-saree.jpg"
   },
   {
@@ -72,7 +72,7 @@
     "gender": "women",
     "short_description": "Traditional festive outfit crafted for Tihar occasions.",
     "price": "₹6,999",
-    "whatsapp_contact_link": "https://wa.me/919999999999?text=I%20am%20interested%20in%20Tihar%20Special%20Outfit",
+
     "photo": "assets/images/tihar-outfit.jpg"
   }
 ]
