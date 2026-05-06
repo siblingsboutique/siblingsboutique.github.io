@@ -683,7 +683,7 @@ section {
       135deg,
       rgba(139, 10, 26, 0.3) 0%,
       rgba(90, 6, 16, 0.3) 100%
-    ), */ url("./images/others/fabric_1.png")
+    ), */ url("./images/others/fabric_1.webp")
     center/cover no-repeat;
   border-radius: 20px;
   overflow: hidden;
