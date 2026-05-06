@@ -1,0 +1,527 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Siblings Creation & Boutique | Collections</title>
+    <link rel="stylesheet" href="../assets/style.css" />
+    <!-- Load the banner image very fast -->
+    <link
+      rel="preload"
+      as="image"
+      href="../assets/images/collections/bridal_collection.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" />
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="nav-container">
+        <a href="../index.html" class="logo">
+          <span class="logo-icon">✿</span>
+          <span class="logo-text">Siblings Creations</span>
+        </a>
+        <ul class="nav-links">
+          <li><a href="../index.html#home">Home</a></li>
+          <li><a href="../index.html#about">About</a></li>
+          <li><a href="#collections">Collections</a></li>
+          <li><a href="../index.html#services">Services</a></li>
+          <li><a href="../index.html#gallery">Gallery</a></li>
+          <li><a href="../index.html#contact">Contact</a></li>
+        </ul>
+        <div class="nav-icons">
+          <!-- <a href="#" class="icon"><i class="fas fa-search"></i></a>
+          <a href="#" class="icon"><i class="fas fa-shopping-bag"></i></a> -->
+        </div>
+        <div class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero collection-hero">
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <p class="hero-subtitle">Our Curated Styles</p>
+        <h1 class="hero-title">Collections</h1>
+        <p class="hero-tagline">
+          Bridal Collection, Traditional Wear, Casual Elegance, and Festival
+          Special for every celebration.
+        </p>
+        <div class="hero-buttons">
+          <a href="#collections" class="btn btn-primary">Browse Collections</a>
+          <a
+            href="https://wa.me/917584060563?text=Hi%20Siblings%20Creations,%20I%20want%20to%20enquire%20about%20your%20collections"
+            class="btn btn-secondary"
+            target="_blank"
+            rel="noopener noreferrer"
+            >WhatsApp Us</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- Collections Section -->
+    <section id="collections" class="collection-page">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">Our Collections</span>
+          <h2 class="section-title">Shop by Occasion & Style</h2>
+        </div>
+
+        <div class="collection-toolbar">
+          <div class="collection-tabs" role="tablist">
+            <button class="tab-btn active" data-category="bridal" type="button">
+              Bridal Collection
+            </button>
+            <button class="tab-btn" data-category="traditional" type="button">
+              Traditional Wear
+            </button>
+            <button class="tab-btn" data-category="casual" type="button">
+              Casual Elegance
+            </button>
+            <button class="tab-btn" data-category="festival" type="button">
+              Festival Special
+            </button>
+          </div>
+          <div class="collection-filters" aria-label="Filter by gender">
+            <button class="filter-btn active" data-gender="all" type="button">
+              All
+            </button>
+            <button class="filter-btn" data-gender="women" type="button">
+              Women
+            </button>
+            <button class="filter-btn" data-gender="men" type="button">
+              Men
+            </button>
+          </div>
+        </div>
+
+        <div class="collection-grid" id="collection-grid"></div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-brand">
+            <a href="../index.html" class="footer-logo">
+              <span class="logo-icon">✿</span>
+              <span class="logo-text">Siblings Creation</span>
+            </a>
+            <p>
+              Embracing Nepali heritage with modern elegance. Your trusted
+              destination for traditional and contemporary fashion.
+            </p>
+          </div>
+          <div class="footer-links">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="../index.html#home">Home</a></li>
+              <li><a href="../index.html#about">About Us</a></li>
+              <li><a href="#collections">Collections</a></li>
+              <li><a href="../index.html#services">Services</a></li>
+              <li><a href="../index.html#contact">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer-links">
+            <h4>Collections</h4>
+            <ul>
+              <li><a href="#collections">Bridal Collection</a></li>
+              <li><a href="#collections">Traditional Wear</a></li>
+              <li><a href="#collections">Casual Elegance</a></li>
+              <li><a href="#collections">Festival Special</a></li>
+              <li><a href="#collections">Accessories</a></li>
+            </ul>
+          </div>
+          <div class="footer-newsletter">
+            <h4>Newsletter</h4>
+            <p>
+              Subscribe to get updates on new collections and special offers.
+            </p>
+            <form class="newsletter-form">
+              <input type="email" placeholder="Your email" />
+              <button type="submit"><i class="fas fa-arrow-right"></i></button>
+            </form>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <style>
+            .footer-dev {
+              margin-top: 10px;
+              font-size: 13px;
+              color: #bbb;
+            }
+
+            .footer-dev strong {
+              color: #fff;
+            }
+
+            .footer-actions {
+              margin-top: 8px;
+              display: flex;
+              gap: 10px;
+              flex-wrap: wrap;
+            }
+
+            .footer-btn {
+              display: inline-flex;
+              align-items: center;
+              gap: 6px;
+              padding: 7px 14px;
+              border-radius: 999px;
+              font-size: 13px;
+              font-weight: 500;
+              text-decoration: none;
+              transition: all 0.2s ease;
+            }
+
+            .call-btn {
+              background: #1f1f1f;
+              color: #fff;
+            }
+
+            .call-btn:hover {
+              background: #333;
+            }
+
+            .whatsapp-btn {
+              background: #25d366;
+              color: #fff;
+            }
+
+            .whatsapp-btn:hover {
+              background: #1ebe5d;
+            }
+          </style>
+
+          <p class="footer-dev">
+            Designed & developed by <strong>Sagar Adhikari</strong>
+          </p>
+
+          <div class="footer-actions">
+            <a href="tel:+917584060563" class="footer-btn call-btn">
+              <i class="fa-solid fa-phone"></i> Call
+            </a>
+
+            <a
+              href="https://wa.me/917584060563?text=Hi%20Sagar,%20I%20want%20to%20contact%20you"
+              target="_blank"
+              class="footer-btn whatsapp-btn"
+            >
+              <i class="fa-brands fa-whatsapp"></i> WhatsApp
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <div class="floating-actions" aria-label="Quick contact">
+      <a
+        class="floating-action floating-whatsapp"
+        href="https://wa.me/917584060563?text=Hi%20Sagar,%20some%20message%20"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Chat on WhatsApp"
+      >
+        <i class="fa-brands fa-whatsapp"></i>
+      </a>
+      <a
+        class="floating-action floating-call"
+        href="tel:+917584060563"
+        aria-label="Call now"
+      >
+        <i class="fa-solid fa-phone"></i>
+      </a>
+    </div>
+
+    <style>
+      .collection-item {
+        opacity: 1 !important;
+        transform: none !important;
+        visibility: visible !important;
+      }
+    </style>
+
+    <script>
+      // Navbar scroll effect
+      window.addEventListener("scroll", function () {
+        const navbar = document.querySelector(".navbar");
+        if (window.scrollY > 50) {
+          navbar.classList.add("scrolled");
+        } else {
+          navbar.classList.remove("scrolled");
+        }
+      });
+
+      // Mobile menu toggle
+      const hamburger = document.querySelector(".hamburger");
+      const navLinks = document.querySelector(".nav-links");
+
+      hamburger.addEventListener("click", function () {
+        hamburger.classList.toggle("active");
+        navLinks.classList.toggle("active");
+      });
+
+      // Smooth scroll for page anchors
+      document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+        anchor.addEventListener("click", function (e) {
+          e.preventDefault();
+          const target = document.querySelector(this.getAttribute("href"));
+          if (target) {
+            target.scrollIntoView({
+              behavior: "smooth",
+              block: "start",
+            });
+            hamburger.classList.remove("active");
+            navLinks.classList.remove("active");
+          }
+        });
+      });
+
+      // Dynamic Collection Loading
+      //   const collectionGrid = document.getElementById("collection-grid");
+
+      //   async function loadCollections() {
+      //     try {
+      //       const response = await fetch("../assets/datas/collection.json");
+      //       const collections = await response.json();
+
+      //       collectionGrid.innerHTML = collections
+      //         .map(
+      //           (item) => `
+      //       <article
+      //         class="collection-item"
+      //         data-category="${item.category.toLowerCase().replace(/\s+/g, "-")}"
+      //       >
+      //         <div class="collection-media">
+      //           <img
+      //             src="../${item.photo}"
+      //             alt="${item.title}"
+      //             loading="lazy"
+      //           />
+      //         </div>
+
+      //         <div class="collection-info">
+      //           <span class="collection-tag">${item.category}</span>
+      //           <h3>${item.title}</h3>
+      //           <p>${item.short_description}</p>
+      //           <p class="collection-price">${item.price}</p>
+
+      //           <a
+      //             class="whatsapp-link"
+      //             href="${item.whatsapp_contact_link}"
+      //             target="_blank"
+      //           >
+      //             WhatsApp to Order
+      //           </a>
+      //         </div>
+      //       </article>
+      //     `,
+      //         )
+      //         .join("");
+      //     } catch (error) {
+      //       console.error("Failed to load collections:", error);
+      //     }
+      //   }
+
+      //   loadCollections();
+    </script>
+
+    <script>
+      const collections = [
+        {
+          id: 1,
+          category: "bridal",
+          title: "Red Bridal Lehenga",
+          short_description:
+            "Elegant red bridal lehenga with golden embroidery.",
+          price: "₹18,999",
+          gender: "women",
+          whatsapp_contact_link:
+            "https://wa.me/919999999999?text=I%20am%20interested%20in%20Red%20Bridal%20Lehenga",
+          photo: "assets/images/bridal-lehenga-red.jpg",
+        },
+        {
+          id: 2,
+          category: "bridal",
+          title: "Royal Wedding Saree",
+          short_description:
+            "Traditional wedding saree with handcrafted details.",
+          price: "₹15,499",
+          gender: "men",
+          whatsapp_contact_link:
+            "https://wa.me/919999999999?text=I%20am%20interested%20in%20Royal%20Wedding%20Saree",
+          photo: "assets/images/royal-wedding-saree.jpg",
+        },
+        {
+          id: 3,
+          category: "traditional",
+          title: "Gunyu Choli Set",
+          gender: "women",
+          short_description:
+            "Classic Nepali Gunyu Choli perfect for ceremonies.",
+          price: "₹5,999",
+          whatsapp_contact_link:
+            "https://wa.me/919999999999?text=I%20am%20interested%20in%20Gunyu%20Choli%20Set",
+          photo: "assets/images/gunyu-choli.jpg",
+        },
+        {
+          id: 4,
+          category: "traditional",
+          title: "Daura Suruwal Premium",
+          gender: "women",
+          short_description:
+            "Premium Daura Suruwal with elegant traditional styling.",
+          price: "₹6,499",
+          whatsapp_contact_link:
+            "https://wa.me/919999999999?text=I%20am%20interested%20in%20Daura%20Suruwal%20Premium",
+          photo: "assets/images/daura-suruwal.jpg",
+        },
+        {
+          id: 5,
+          category: "casual",
+          title: "Fusion Kurti Dress",
+          short_description: "Modern fusion kurti designed for daily elegance.",
+          price: "₹2,299",
+          gender: "men",
+          whatsapp_contact_link:
+            "https://wa.me/919999999999?text=I%20am%20interested%20in%20Fusion%20Kurti%20Dress",
+          photo: "assets/images/fusion-kurti.jpg",
+        },
+        {
+          id: 6,
+          category: "casual",
+          title: "Soft Pastel Gown",
+          gender: "men",
+          short_description:
+            "Comfortable pastel gown with stylish modern touch.",
+          price: "₹3,199",
+          whatsapp_contact_link:
+            "https://wa.me/919999999999?text=I%20am%20interested%20in%20Soft%20Pastel%20Gown",
+          photo: "assets/images/pastel-gown.jpg",
+        },
+        {
+          id: 7,
+          category: "festival",
+          title: "Dashain Celebration Saree",
+          gender: "women",
+          short_description:
+            "Festive saree collection designed for Dashain celebrations.",
+          price: "₹7,499",
+          whatsapp_contact_link:
+            "https://wa.me/919999999999?text=I%20am%20interested%20in%20Dashain%20Celebration%20Saree",
+          photo: "assets/images/dashain-saree.jpg",
+        },
+        {
+          id: 8,
+          category: "festival",
+          title: "Tihar Special Outfit",
+          gender: "women",
+          short_description:
+            "Traditional festive outfit crafted for Tihar occasions.",
+          price: "₹6,999",
+          whatsapp_contact_link:
+            "https://wa.me/919999999999?text=I%20am%20interested%20in%20Tihar%20Special%20Outfit",
+          photo: "assets/images/tihar-outfit.jpg",
+        },
+      ];
+
+      const collectionGrid = document.getElementById("collection-grid");
+
+      let activeCategory = "bridal";
+      let activeGender = "all";
+
+      function renderCollections() {
+        let filtered;
+
+        if (activeGender === "all") {
+          filtered = collections.filter(
+            (item) => item.category === activeCategory,
+          );
+        } else {
+          filtered = collections.filter(
+            (item) =>
+              item.category === activeCategory && item.gender === activeGender,
+          );
+        }
+
+        collectionGrid.innerHTML = filtered
+          .map(
+            (item) => `
+      <article 
+  class="collection-item"
+  style="background-image:url('https://picsum.photos/400/500?random=${Math.random()}')"
+>
+  <div class="collection-info">
+    <span class="collection-tag">${item.category}</span>
+
+    <h3>${item.title}</h3>
+
+    <p>${item.short_description}</p>
+
+    <p class="collection-price">${item.price}</p>
+
+    <a
+      class="whatsapp-link"
+      href="${item.whatsapp_contact_link}"
+      target="_blank"
+    >
+      WhatsApp to Order
+    </a>
+  </div>
+</article>
+    `,
+          )
+          .join("");
+      }
+
+      renderCollections();
+
+      // CATEGORY TABS
+      const tabButtons = document.querySelectorAll(".tab-btn");
+
+      tabButtons.forEach((btn) => {
+        btn.addEventListener("click", () => {
+          tabButtons.forEach((tab) => tab.classList.remove("active"));
+
+          btn.classList.add("active");
+
+          activeCategory = btn.dataset.category;
+
+          renderCollections();
+        });
+      });
+
+      // GENDER FILTER
+      document.querySelectorAll(".filter-btn").forEach((btn) => {
+        btn.addEventListener("click", () => {
+          document
+            .querySelectorAll(".filter-btn")
+            .forEach((tab) => tab.classList.remove("active"));
+
+          btn.classList.add("active");
+
+          activeGender = btn.dataset.gender;
+
+          renderCollections();
+        });
+      });
+    </script>
+  </body>
+</html>
