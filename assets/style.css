@@ -1160,9 +1160,9 @@ section {
   justify-content: center;
   width: 100%;
   height: 36px;
-  border: 1px solid #d4d5d9;
+  border-color: #10582b;
+  color: #105d2c;
   background: #fff;
-  color: #282c3f;
   text-decoration: none;
   font-size: 11px;
   font-weight: 600;
