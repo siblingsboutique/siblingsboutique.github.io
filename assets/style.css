@@ -1036,7 +1036,7 @@ section {
 .filter-btn {
   border: 1px solid #e2e2e2;
   background: #ffffff;
-  color: #222222;
+  color: #343131;
   padding: 8px 14px;
   border-radius: 999px;
   font-size: 12px;
@@ -1047,9 +1047,10 @@ section {
 }
 
 .tab-btn.active,
-.filter-btn.active {
-  background: #0d0d0d;
-  border-color: #0d0d0d;
+.filter-btn.active,
+.tab-btn.active:hover {
+  background: #330309;
+  /* border-color: #0d0d0d; */
   color: #ffffff;
   box-shadow: none;
 }
@@ -1057,7 +1058,7 @@ section {
 .tab-btn:hover,
 .filter-btn:hover {
   border-color: #c8c8c8;
-  color: #0d0d0d;
+  color: #8b0a1a;
 }
 
 /* ========================================
