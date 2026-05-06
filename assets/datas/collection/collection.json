@@ -24,7 +24,7 @@
     "gender": "women",
     "price": "₹5,999",
 
-    "photo": "/assets/images/gallery/gallery_2.webp"
+    "photo": "/assets/images/collections/traditional.webp"
   },
   {
     "id": 4,
@@ -73,6 +73,6 @@
     "short_description": "Traditional festive outfit crafted for Tihar occasions.",
     "price": "₹6,999",
 
-    "photo": "/assets/collections/casual_1.webp"
+    "photo": "/assets/images/collections/casual_1.webp"
   }
 ]
