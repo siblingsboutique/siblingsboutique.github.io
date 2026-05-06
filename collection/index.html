@@ -275,7 +275,9 @@
 
       async function loadCollections() {
         try {
-          const response = await fetch("../assets/datas/collection.json");
+          const response = await fetch(
+            "../assets/datas/collection/collection.json",
+          );
 
           collections = await response.json();
 
