@@ -110,11 +110,10 @@
           <div class="">
             <!-- <p class="toolbar-title">Categories</p> -->
             <div class="collection-tabs" role="tablist">
-              <button
-                class="tab-btn active"
-                data-category="bridal"
-                type="button"
-              >
+              <button class="tab-btn active" data-category="all" type="button">
+                All
+              </button>
+              <button class="tab-btn" data-category="bridal" type="button">
                 Bridal Collection
               </button>
               <button class="tab-btn" data-category="traditional" type="button">
@@ -270,7 +269,7 @@
 
       let collections = [];
 
-      let activeCategory = "bridal";
+      let activeCategory = "all";
       let activeGender = "all";
 
       async function loadCollections() {
@@ -288,17 +287,18 @@
       }
 
       function renderCollections() {
-        let filtered;
+        let filtered = collections;
 
-        if (activeGender === "all") {
-          filtered = collections.filter(
+        // CATEGORY FILTER
+        if (activeCategory !== "all") {
+          filtered = filtered.filter(
             (item) => item.category === activeCategory,
           );
-        } else {
-          filtered = collections.filter(
-            (item) =>
-              item.category === activeCategory && item.gender === activeGender,
-          );
+        }
+
+        // GENDER FILTER
+        if (activeGender !== "all") {
+          filtered = filtered.filter((item) => item.gender === activeGender);
         }
 
         collectionGrid.innerHTML = filtered
@@ -323,7 +323,7 @@
           <a
             class="whatsapp-link"
             href="https://wa.me/7584060563?text=${encodeURIComponent(
-              `Hi Siblings Creations, I am interested in ${item.category}- ${item.title} `,
+              `Hi Siblings Creations, I am interested in ${item.category} - ${item.title}`,
             )}"
             target="_blank"
           >
@@ -336,13 +336,11 @@
           .join("");
       }
 
-      // Load collections initially
+      // INITIAL LOAD
       loadCollections();
 
       // CATEGORY TABS
       const tabButtons = document.querySelectorAll(".tab-btn");
-      const genderFilter = document.getElementById("gender-filter");
-      const filterFab = document.getElementById("filter-fab");
 
       tabButtons.forEach((btn) => {
         btn.addEventListener("click", () => {
@@ -357,6 +355,8 @@
       });
 
       // GENDER FILTER
+      const genderFilter = document.getElementById("gender-filter");
+
       if (genderFilter) {
         genderFilter.addEventListener("change", (event) => {
           activeGender = event.target.value;
@@ -366,6 +366,8 @@
       }
 
       // FILTER FAB
+      const filterFab = document.getElementById("filter-fab");
+
       if (filterFab) {
         filterFab.addEventListener("click", () => {
           if (genderFilter) {
