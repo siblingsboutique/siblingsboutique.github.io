@@ -265,6 +265,88 @@
     </script>
 
     <script>
+      const dummyCollections = [
+        {
+          id: 1,
+          category: "bridal",
+          title: "Red Bridal Lehenga",
+          price: "₹8,999",
+          gender: "women",
+
+          photo: "/assets/images/others/banner_image_2.webp",
+        },
+        {
+          id: 2,
+          category: "bridal",
+          title: "Royal Wedding Saree",
+          price: "₹5,499",
+          gender: "men",
+
+          photo: "assets/images/gallery/gallery_1.webp",
+        },
+        {
+          id: 3,
+          category: "traditional",
+          title: "Gunyu Choli Set",
+          gender: "women",
+          price: "₹5,999",
+
+          photo: "assets/images/gallery/gallery_2.webp",
+        },
+        {
+          id: 4,
+          category: "traditional",
+          title: "Daura Suruwal Premium",
+          gender: "women",
+          price: "₹6,499",
+
+          photo: "assets/images/gallery/gallery_3.webp",
+        },
+        {
+          id: 5,
+          category: "casual",
+          title: "Fusion Kurti Dress",
+          short_description: "Modern fusion kurti designed for daily elegance.",
+          price: "₹2,299",
+          gender: "men",
+
+          photo: "assets/images/gallery/gallery_4.webp",
+        },
+        {
+          id: 6,
+          category: "casual",
+          title: "Soft Pastel Gown",
+          gender: "men",
+          short_description:
+            "Comfortable pastel gown with stylish modern touch.",
+          price: "₹3,199",
+
+          photo: "assets/images/gallery/gallery_5.webp",
+        },
+        {
+          id: 7,
+          category: "festival",
+          title: "Dashain Celebration Saree",
+          gender: "women",
+          short_description:
+            "Festive saree collection designed for Dashain celebrations.",
+          price: "₹7,499",
+
+          photo: "assets/images/others/fabric_1.webp",
+        },
+        {
+          id: 8,
+          category: "festival",
+          title: "Tihar Special Outfit",
+          gender: "women",
+          short_description:
+            "Traditional festive outfit crafted for Tihar occasions.",
+          price: "₹6,999",
+
+          photo: "assets/collections/casual_1.webp",
+        },
+      ];
+
       const collectionGrid = document.getElementById("collection-grid");
 
       let collections = [];
@@ -282,7 +364,8 @@
 
           renderCollections();
         } catch (error) {
-          console.error("Failed to load collections:", error);
+          collections = dummyCollections;
+          renderCollections();
         }
       }
 
@@ -316,7 +399,7 @@
         <div class="collection-info">
           <span class="collection-tag">${item.category}</span>
 
-          <h3>${item.title}</h3>
+          <h5>${item.title}</h5>
 
           <p class="collection-price">${item.price}</p>
 

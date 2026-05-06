@@ -156,8 +156,9 @@ h4,
 h5,
 h6 {
   font-family: var(--font-heading);
-  font-weight: 600;
-  line-height: 1.3;
+  font-weight: 400;
+
+  line-height: 1.1;
 }
 
 a {
@@ -1018,7 +1019,7 @@ section {
 
 .filter-select::after {
   content: "\f107";
-  font-family: "Font Awesome 6 Free";
+  /* font-family: "Font Awesome 6 Free"; */
   font-weight: 900;
   position: absolute;
   right: 12px;
@@ -1160,9 +1161,10 @@ section {
   justify-content: center;
   width: 100%;
   height: 36px;
-  border-color: #10582b;
-  color: #105d2c;
 
+  border: 0.001rem solid #c1d8ca;
+  color: #105d2c;
+  border-radius: 5px;
   background: #fff;
   text-decoration: none;
   font-size: 11px;
@@ -1548,7 +1550,7 @@ section {
   top: 15px;
   right: 25px;
   font-size: 80px;
-  font-family: var(--font-heading);
+  /* font-family: var(--font-heading); */
   color: rgba(212, 175, 55, 0.15);
   line-height: 1;
 }
