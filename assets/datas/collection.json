@@ -1,9 +1,8 @@
 [
   {
     "id": 1,
-    "category": "Bridal Collection",
+    "category": "bridal",
     "title": "Red Bridal Lehenga",
-    "short_description": "Elegant red bridal lehenga with golden embroidery.",
     "price": "₹18,999",
     "gender": "women",
     "whatsapp_contact_link": "https://wa.me/919999999999?text=I%20am%20interested%20in%20Red%20Bridal%20Lehenga",
@@ -11,9 +10,8 @@
   },
   {
     "id": 2,
-    "category": "Bridal Collection",
+    "category": "bridal",
     "title": "Royal Wedding Saree",
-    "short_description": "Traditional wedding saree with handcrafted details.",
     "price": "₹15,499",
     "gender": "men",
     "whatsapp_contact_link": "https://wa.me/919999999999?text=I%20am%20interested%20in%20Royal%20Wedding%20Saree",
@@ -21,27 +19,25 @@
   },
   {
     "id": 3,
-    "category": "Traditional Wear",
+    "category": "traditional",
     "title": "Gunyu Choli Set",
     "gender": "women",
-    "short_description": "Classic Nepali Gunyu Choli perfect for ceremonies.",
     "price": "₹5,999",
     "whatsapp_contact_link": "https://wa.me/919999999999?text=I%20am%20interested%20in%20Gunyu%20Choli%20Set",
     "photo": "assets/images/gunyu-choli.jpg"
   },
   {
     "id": 4,
-    "category": "Traditional Wear",
+    "category": "traditional",
     "title": "Daura Suruwal Premium",
     "gender": "women",
-    "short_description": "Premium Daura Suruwal with elegant traditional styling.",
     "price": "₹6,499",
     "whatsapp_contact_link": "https://wa.me/919999999999?text=I%20am%20interested%20in%20Daura%20Suruwal%20Premium",
     "photo": "assets/images/daura-suruwal.jpg"
   },
   {
     "id": 5,
-    "category": "Casual Elegance",
+    "category": "casual",
     "title": "Fusion Kurti Dress",
     "short_description": "Modern fusion kurti designed for daily elegance.",
     "price": "₹2,299",
@@ -51,7 +47,7 @@
   },
   {
     "id": 6,
-    "category": "Casual Elegance",
+    "category": "casual",
     "title": "Soft Pastel Gown",
     "gender": "men",
     "short_description": "Comfortable pastel gown with stylish modern touch.",
@@ -61,7 +57,7 @@
   },
   {
     "id": 7,
-    "category": "Festival Special",
+    "category": "festival",
     "title": "Dashain Celebration Saree",
     "gender": "women",
     "short_description": "Festive saree collection designed for Dashain celebrations.",
@@ -71,7 +67,7 @@
   },
   {
     "id": 8,
-    "category": "Festival Special",
+    "category": "festival",
     "title": "Tihar Special Outfit",
     "gender": "women",
     "short_description": "Traditional festive outfit crafted for Tihar occasions.",
